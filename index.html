@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>First Page</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+
+</head>
+
+<body>
+    <div class="bg-image" id="first"></div>
+
+        <div class="bg-text" id="bgtext">
+            <h1 class="head1">Enter your nickname</h1>
+            <input type="text" class="name" id="userName">
+            <button id="butt" class="butt">
+                <p> ok </p>
+            </button>
+        </div>
+    <div id="firstPage">
+        <audio id="Music" src="assets/sounds/backgroundmusic.mp3" autoplay="true" loop="true"></audio>
+        <div class="start" id="start"></div>
+
+        <a href="window.close()">
+            <div class="exit"></div>
+        </a>
+
+
+        
+        <div id="tools">
+            <div class="soundpic" id="soundpicmenu" name="ok"></div>
+            <div class="settings" id="seet"></div>
+            <div class="how" id="how"></div>
+
+
+
+            <!-- //settings list -->
+            <div>
+
+                <div id="settmenu">
+
+
+                    <table class="set" id="setting">
+                        <tr>
+                            <th colspan="4"> Options</th>
+                        </tr>
+
+                        <tr>
+                            <td>LEVELS</td>
+                            <td><input type="radio" name="levels" value="1">Easy</td>
+                            <td><input type="radio" name="levels" value="3">Medium</td>
+                            <td><input type="radio" name="levels" value="5">Hard</td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td>Graphics</td>
+                            <td><input type="radio" name="Graphics" value="1">Low</td>
+                            <td><input type="radio" name="Graphics" value="3">Medium</td>
+                            <td><input type="radio" name="Graphics" value="5">High</td>
+                        </tr>
+                        <br>
+
+                        <tr>
+                            <td>Characters</td>
+                            <td id="char1"><img id="img1" src="assets/images/dino1.png" style="width:80pt;
+                         height:100pt;"></td>
+
+                            <td id="char2"><img id="img2" src="assets/images/dino2.png" style="width:80pt;
+                         height:100pt;" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><button id="subok">ok</button></td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="howPlay" id="howPlay">
+                    <span class="closebtn" id="closebtn">&times;</span>
+                    <h3>How To Play</h3>
+                    <p> Jump by pressing "space" </p>
+                    <p> Rappel by pressing "down" </p>
+                    <p> Pause by pressing "Enter" </p>
+                    <p> Avoid The-thorns </p>
+                    <p> Play seriously to gain high score </p>
+                    <p> Be careful as The-game speed increasing </p>
+                    <p> Finally , I wish The-game be liked </p>
+                    <p> Thank you for your kind attention </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="gamePage" style="display: none">
+        <canvas id="can" width="1350px" height="640px"></canvas>
+
+        <a href="index.html"><img id="backarrow" autoplay="true" src="assets/images/back.png"></a>
+
+        <audio id="Music" src="assets/sounds/music.mp3" loop="true"></audio>
+        <audio id="Jump" src="assets/sounds/jump.wav"></audio>
+        <audio id="Hit" src="assets/sounds/hit.wav"></audio>
+
+    </div>
+    <script src="assets/JS/jQuery.1.8.2/Content/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="assets/JS/js for p1.js"></script>
+    <script src="assets/JS/engine.js"></script>
+
+</body>
+
+</html>

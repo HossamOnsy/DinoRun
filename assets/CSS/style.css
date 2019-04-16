@@ -1,0 +1,215 @@
+body{
+  background-image: url("../images/firstbackground.png");
+  background-repeat: no-repeat;
+
+}
+#backarrow{
+  width:40pt;
+  height:40pt;
+  position: absolute;
+  top:25px;
+  left:25px;
+}
+
+div.start{
+  width:100px;
+  height:100px;
+  position: absolute;
+  top:125px;
+  left:400px;
+  background: url("../images/start.png") no-repeat;
+    display: none;
+}
+ div.start:hover{
+  background: url("../images/start_hoover.png") no-repeat;
+}
+div.how{
+  width:150px;
+  height:29px;
+  background: url("../images/how to play.png") no-repeat;
+}
+div.how:hover{
+  background: url("../images/How to Play _hoover.png") no-repeat;
+}
+div.exit{
+  width:150px;
+  height:62px;
+  position: absolute;
+  top:350px;
+  left:380px;
+  background: url("../images/exit.png");
+    display: none;
+}
+div.exit:hover{
+  background: url("../images/exit_hoover.png")
+}
+
+
+
+body, html {
+  height: 100%;
+} 
+.bg-image {
+  background-image: url("../images/firstbackground.png");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 10%;
+  padding: 60px;
+  text-align: center;
+  
+}
+.head1{
+margin-top:-50px; 
+}
+.name{
+  width: 190px;
+  height: 20px;
+  margin-left:100px;
+  display: block;
+}
+
+.butt{
+  color: white;
+  left: 200px;
+  top: 140px;
+  display: block;
+  width: 80px;
+  background-color: black;
+  border: none;
+  font-size: 15px;
+  padding: 2px 2px;
+  border-radius: 2px;
+  margin-left: 150px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.butt:hover{
+  background-color: white;
+  color: black;
+}
+.soundpic{
+  display:inline-block;
+  width: 50px;
+  height: 50px;
+  background: url("../images/sound.png")
+}
+.soundpic:hover{
+  background: url("../images/sound_h.png")
+}
+
+.settings{
+  display:inline-block;
+  width: 50px;
+  height: 50px;
+  background: url("../images/settings.png")
+}
+.settings:hover{
+  background: url("../images/settings_h.png")
+}
+/* list settings style */
+*{
+  list-style: none;
+
+}
+#options{
+  
+background-color:rgba(0, 0, 0, 0.7);
+color: white;
+width:70px;
+text-align: center;
+height: 30px;
+font-size: 18px;
+position: relative;
+border-radius: 15px;
+padding: 10px;
+}
+#setting{
+  width: 550px;
+  height: 150px;
+  padding: 35px;
+  margin-top: 150px;
+  margin-right:100px;
+  margin-bottom: 150px;
+  margin-left: 500px;
+  position: absolute;
+  background-color:rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 25px;
+  font-style: oblique;
+  border: 50px;
+  text-align: center;
+  }
+  #settmenu{
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+  }
+  #subok{
+    color: white;
+    background-color: black;
+    width: 90px;
+    height: 50px;
+    font-size: 20pt;
+    border-radius: 15px;
+  }
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+  #howPlay{
+    display: none;
+    width: 300px;
+    height: 380px;
+    /* padding: 35px; */
+    margin-top: 50px;
+    /* margin-right:50px; */
+    margin-bottom: 150px;
+    margin-left: -50px;
+    position: absolute;
+    top: -20px;
+    left:100px;
+    background-color:rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 18px;
+    font-style: oblique;
+    border: 50px;
+    text-align: center;
+  }
+  #tools{
+    margin-left: 380px;
+    margin-top: 250px;
+    display: none;
+  }
